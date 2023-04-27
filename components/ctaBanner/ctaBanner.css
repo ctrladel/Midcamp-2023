@@ -1,0 +1,30 @@
+.json-block-cta-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 4rem;
+  border-radius: 1rem;
+}
+
+.json-block-cta-banner .h1,
+.json-block-cta-banner .h2,
+.json-block-cta-banner .h3,
+.json-block-cta-banner .h4 {
+  margin: 0;
+}
+
+.json-block-cta-banner sp-link {
+  margin-top: 1rem;
+}
+
+.bg-cadetblue {
+  background-color: cadetblue;
+}
+
+.bg-lightgreen{
+  background-color: lightgreen;
+}
+
+.bg-whitesmoke {
+  background-color: whitesmoke;
+}

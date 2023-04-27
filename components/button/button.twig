@@ -1,0 +1,14 @@
+<sp-link href="{{ link.url }}">
+  <sp-button
+  size="{{ size }}"
+  treatment="{{ treatment }}"
+  variant="{{ variant }}"
+  {{ active ? '' : 'disabled' }}
+  {{ quiet ? 'quiet' : '' }}
+  >
+    {% if icon %}
+      {% include 'json_blocks:icon' with icon only %}
+    {% endif %}
+    {{ link.title }}
+  </sp-button>
+</sp-link>

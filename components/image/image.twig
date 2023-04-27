@@ -1,0 +1,3 @@
+{% for image in multiple %}
+  {{ drupal_entity('media', image.id, 'wide') }}
+{% endfor %}

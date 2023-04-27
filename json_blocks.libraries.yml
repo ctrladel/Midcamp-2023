@@ -1,0 +1,4 @@
+spectrum:
+  version: VERSION
+  js:
+    https://jspm.dev/@spectrum-web-components/bundle/elements.js: { type: external, minified: true, attributes: {type: module} }

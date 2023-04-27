@@ -1,0 +1,5 @@
+node_modules
+*.component.json
+*.component.yml
+main.js
+components-yml
